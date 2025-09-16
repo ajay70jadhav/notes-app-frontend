@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API_BASE = "https://notes-app-backend-gold-tau.vercel.app/";
+const API_BASE = import.meta.env.VITE_API_BASE || "https://notes-app-backend-gold-tau.vercel.app/";
 
 function App() {
   const [token, setToken] = useState(localStorage.getItem("token"));
