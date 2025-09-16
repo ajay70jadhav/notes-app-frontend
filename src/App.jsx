@@ -129,6 +129,24 @@ function Login({ onLogin, error }) {
         />
         <button type="submit">Login</button>
       </form>
+      <div className="demo-accounts">
+        <h3>Demo Accounts</h3>
+        <p>Use these to explore the app:</p>
+        <ul>
+          <li>
+            <strong>Acme Admin:</strong> admin@acme.test / password
+          </li>
+          <li>
+            <strong>Acme Member:</strong> user@acme.test / password
+          </li>
+          <li>
+            <strong>Globex Admin:</strong> admin@globex.test / password
+          </li>
+          <li>
+            <strong>Globex Member:</strong> user@globex.test / password
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }

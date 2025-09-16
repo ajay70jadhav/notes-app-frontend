@@ -17,6 +17,20 @@ header {
   text-align: center;
 }
 
+.demo-accounts {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.demo-accounts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.demo-accounts li {
+  margin-bottom: 5px;
+}
+
 .login form {
   display: flex;
   flex-direction: column;
